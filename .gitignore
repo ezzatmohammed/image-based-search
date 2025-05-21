@@ -1,0 +1,11 @@
+.env
+Dockerfile
+IRdb/
+__pycache__/
+class_labels.json
+docker-compose.yml
+embeddings/
+ngrok.yml
+resnet-model-trained.h5
+resnet_model.keras
+siglip_model/
