@@ -38,7 +38,7 @@ def start_ngrok_static():
     try:
         logging.info("Starting ngrok with static domain lately-humane-swan.ngrok-free.app...")
         ngrok_process = subprocess.Popen(
-            ["D:\\ngrok\\ngrok.exe", "http", "--domain=lately-humane-swan.ngrok-free.app", "8000"],
+            ["D:\\NGROK\\ngrok.exe", "http", "--domain=lately-humane-swan.ngrok-free.app", "8000"],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
